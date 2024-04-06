@@ -7,4 +7,20 @@
   .custom-item {
     @apply bg-[red] w-12 h-6 rounded-full text-center text-white
   }
+  .custom-button {
+    @apply p-[10px] w-[40px] h-[40px]
+  }
+  .my-button {
+    @apply py-[8px] px-[14px] border rounded-[8px]
+
+  }
+  .my-text {
+    @apply text-[#344054] text-[14px] leading-[143%] font-[500]
+  }
+  .tab {
+    @apply  h-[40px] rounded-[8px] shadow-tabs border border-['#d0d5dd']
+  }
+  .tab-button {
+    @apply border-r border-l border-['#d0d5dd'] py-[10px] px-[16px]
+  }
 }
